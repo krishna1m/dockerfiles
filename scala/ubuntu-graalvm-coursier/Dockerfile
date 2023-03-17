@@ -9,5 +9,5 @@ ENV PATH="${PATH}:${JAVA_HOME}/bin"
 ENV COURSIER_HOME=/opt/coursier
 RUN curl -fL https://github.com/coursier/coursier/releases/latest/download/cs-x86_64-pc-linux.gz | gzip -d > cs && chmod +x cs && ./cs setup --install-dir ${COURSIER_HOME} -y
 ENV PATH="${PATH}:${COURSIER_HOME}"
-RUN apt-get remove -y --auto-remove curl && apt-get remove -y --auto-remove wget && apt-get clean && rm -rf /var/lib/apt/lists/*
+RUN apt-get remove -y --auto-remove curl wget && apt-get clean && rm -rf /var/lib/apt/lists/*
 WORKDIR /
