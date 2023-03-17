@@ -1,5 +1,5 @@
 FROM ubuntu
-RUN apt-get update && apt-get install -y curl && apt-get install wget && apt-get install -y gzip
+RUN apt-get update && apt-get install -y curl wget gzip
 WORKDIR /opt
 ARG JAVA_VERSION=11
 ARG GRAALVM_VERSION=22.3.1
