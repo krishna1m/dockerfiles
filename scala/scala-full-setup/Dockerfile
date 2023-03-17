@@ -1,4 +1,4 @@
-FROM krishna1m/scala:latest
+FROM krishna1m/scala:latest-ubuntu
 RUN apt-get update \
     && apt-get install -y curl wget gzip git tmux jq ripgrep fd-find neovim
 WORKDIR /opt
