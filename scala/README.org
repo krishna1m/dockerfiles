@@ -1,2 +1,2 @@
 * Scala language Images
-  [[https://hub.docker.com/r/krishna1m/scala][Get 'em here! 🔥]]
+  [[https://hub.docker.com/r/krishna1m/scala][Get 'em here!]] 🔥
