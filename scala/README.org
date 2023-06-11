@@ -1,2 +1,2 @@
-To find the docker images for Scala, go to:
-  [[https://hub.docker.com/r/krishna1m/scala]]
+* Scala language Images
+  [[https://hub.docker.com/r/krishna1m/scala][Get 'em here! 🔥]]
